@@ -21,28 +21,21 @@ The LLM converts raw text into structured numerical features such as sentiment, 
 This combination (Quant + LLM) makes the system robust, interpretable, and closer to real-world financial intelligence engines.
 
 **Architecture**
+## 🧱 Project Structure
 
-project/
-
-│
+```text
+financial-forecasting-ai/
 ├── src/
-│   ├── download_data.py        # Market data ingestion (MetaTrader 5)
-│   ├── preprocess.py           # Cleaning + numerical feature engineering
-│   ├── llm_qualitative.py      # LLM sentiment & event extraction
-│   ├── text_sources.py         # News/text ingestion (RSS, APIs, etc.)
-│   ├── feature_fusion.py       # Merge Quant + LLM signals
-│   ├── train_model.py          # ML/DL forecasting models
+│   ├── download_data.py      # Market data ingestion (MetaTrader 5)
 │   └── __init__.py
-│
-├── data/                       # Ignored by Git (local raw/processed data)
+├── data/                     # Local raw/processed data (gitignored)
 │   ├── raw/
 │   └── processed/
-│
-├── notebooks/                  # EDA and experiments
-├── docs/                       # Technical documentation, design decisions
+├── notebooks/                # EDA and experiments (planned)
+├── docs/                     # Technical documentation (planned)
 ├── requirements.txt
 ├── .gitignore
-├── .env                        # Credentials (ignored by Git)
+├── .env                      # Credentials (gitignored)
 └── README.md
 
 *Main Features*
