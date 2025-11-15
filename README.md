@@ -103,25 +103,18 @@ Languages & Libraries
 Phase 1 — Local Development (Current)
 
 ✔ Project setup
-⟳ MetaTrader 5 ingestion
-⟳ Numerical preprocessing
-⟳ Baseline ML model (Prophet, XGBoost, LSTM)
-⟳ LLM qualitative signal extraction
-⟳ Feature fusion (Quant + LLM)
-⟳ Metrics & evaluation
+_ MetaTrader 5 ingestion
+_ Numerical preprocessing
+_ Baseline ML model (Prophet, XGBoost, LSTM)
+_ LLM qualitative signal extraction
+_ Feature fusion (Quant + LLM)
+_ Metrics & evaluation
 
 Phase 2 — Cloud Integration
-Automated ETL on AWS
-Data lake architecture (S3 + Glue + Athena)
-Real-time inference API
-Dashboard for visualization
-Pipeline for scheduled retraining
+Automated ETL on AWS; Data lake architecture (S3 + Glue + Athena); Real-time inference API; Dashboard for visualization; Pipeline for scheduled retraining
 
 Phase 3 — Advanced Modeling
-Transformer-based forecasting models
-Explainability (SHAP/LIME)
-Portfolio optimization strategies
-Automated reporting + event-driven insights
+Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio optimization strategies; Automated reporting + event-driven insights
 
 **Getting Started**
 1. Create conda environment
