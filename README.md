@@ -142,18 +142,18 @@ Phase 3 — Advanced Modeling
 Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio optimization strategies; Automated reporting + event-driven insights
 
 # **Getting Started**
-1. Create conda environment
+1. **Create conda environment**
 
 `conda create -n clotilde python=3.11`
 `conda activate clotilde`
 
 
-2. Install dependencies
+2. **Install dependencies**
 
 `pip install -r requirements.txt`
 
 
-3. Set up .env
+3. **Set up .env**
 
 - MT5_LOGIN=YOUR_LOGIN
 - MT5_PASSWORD=YOUR_PASSWORD
@@ -164,12 +164,12 @@ Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio opti
 - LLM_API_URL=YOUR_ENDPOINT
 
 
-4. Download market data
+4. **Download market data**
 
 `python -m src.download_data`
 
 
-5. Run preprocessing and modeling 
+5. **Run preprocessing and modeling**
 
 *(coming soon as modules evolve)*
 
