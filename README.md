@@ -37,7 +37,7 @@ financial-forecasting-ai/
 ├── .gitignore
 ├── .env                      # Credentials (gitignored)
 └── README.md
-text´´´
+´´´
 
 *Main Features*
 
