@@ -125,33 +125,35 @@ Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio opti
 **Getting Started**
 1. Create conda environment
 
-conda create -n clotilde python=3.11
+    conda create -n clotilde python=3.11
 
-conda activate clotilde
+    conda activate clotilde
 
 2. Install dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3. Set up .env
 
-MT5_LOGIN=YOUR_LOGIN
+    MT5_LOGIN=YOUR_LOGIN
 
-MT5_PASSWORD=YOUR_PASSWORD
+    MT5_PASSWORD=YOUR_PASSWORD
 
-MT5_SERVER=YOUR_SERVER
+    MT5_SERVER=YOUR_SERVER
 
 
 
-LLM_API_KEY=YOUR_KEY
+    LLM_API_KEY=YOUR_KEY
 
-LLM_API_URL=YOUR_ENDPOINT
+    LLM_API_URL=YOUR_ENDPOINT
 
 4. Download market data
 
     python -m src.download_data
 
-5. Run preprocessing and modeling *(coming soon as modules evolve)*
+5. Run preprocessing and modeling 
+
+    *(coming soon as modules evolve)*
 
 **Contact**
 
