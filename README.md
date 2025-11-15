@@ -136,15 +136,12 @@ Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio opti
 3. Set up .env
 
     MT5_LOGIN=YOUR_LOGIN
-
     MT5_PASSWORD=YOUR_PASSWORD
-
     MT5_SERVER=YOUR_SERVER
 
 
 
     LLM_API_KEY=YOUR_KEY
-
     LLM_API_URL=YOUR_ENDPOINT
 
 4. Download market data
