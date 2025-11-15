@@ -143,14 +143,14 @@ Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio opti
 
 # **Getting Started**
 1. Create conda environment
-conda create -n clotilde python=3.11
 
-conda activate clotilde
+`conda create -n clotilde python=3.11`
+`conda activate clotilde`
 
 
 2. Install dependencies
 
-- pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 3. Set up .env
@@ -166,12 +166,12 @@ conda activate clotilde
 
 4. Download market data
 
-- python -m src.download_data
+`python -m src.download_data`
 
 
 5. Run preprocessing and modeling 
 
-- *(coming soon as modules evolve)*
+*(coming soon as modules evolve)*
 
 
 # **Contact**
