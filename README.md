@@ -149,7 +149,7 @@ LLM_API_URL=YOUR_ENDPOINT
 
 4. Download market data
 
-python -m src.download_data
+    python -m src.download_data
 
 5. Run preprocessing and modeling *(coming soon as modules evolve)*
 
