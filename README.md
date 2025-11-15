@@ -143,8 +143,8 @@ Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio opti
 
 # **Getting Started**
 1. Create conda environment
-
 conda create -n clotilde python=3.11
+
 conda activate clotilde
 
 
