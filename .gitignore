@@ -1,0 +1,19 @@
+# dados (não versionar histórico pesado)
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configs locais / senhas
+.env
+*.env
+*.log
+
+# VSCode
+.vscode/
