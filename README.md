@@ -21,7 +21,9 @@ The LLM converts raw text into structured numerical features such as sentiment, 
 This combination (Quant + LLM) makes the system robust, interpretable, and closer to real-world financial intelligence engines.
 
 **Architecture**
+
 project/
+
 │
 ├── src/
 │   ├── download_data.py        # Market data ingestion (MetaTrader 5)
