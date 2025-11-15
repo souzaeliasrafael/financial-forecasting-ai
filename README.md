@@ -20,6 +20,24 @@ The LLM converts raw text into structured numerical features such as sentiment, 
 
 This combination (Quant + LLM) makes the system robust, interpretable, and closer to real-world financial intelligence engines.
 
+
+## Key Technical Highlights
+- Hybrid **Quant + LLM** forecasting pipeline.
+- End-to-end **production-oriented ML design**.
+- Time-series models (Prophet, XGBoost, LSTM, Transformers – planned).
+- Structured qualitative signals from LLM (sentiment, risk, events).
+- Modular architecture ready for AWS deployment.
+
+## Core ML & Finance Concepts
+- Financial time-series analysis  
+- Feature engineering for trading signals  
+- LLM-driven sentiment & event extraction  
+- Backtesting & strategy evaluation  
+- MLOps best practices (modularity, reproducibility)
+
+## Relevance
+Designed as a real-world ML system aligned with workflows used in fintech, trading, and quantitative research roles globally.
+
 # **Architecture**
 ## Project Structure
 
