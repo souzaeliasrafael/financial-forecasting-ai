@@ -1,11 +1,11 @@
-**Financial Forecasting AI**
+# **Financial Forecasting AI**
 
 Project Codename: Clotilde
 
 Financial Forecasting AI is an end-to-end system that combines quantitative modeling, machine learning, and LLM-powered qualitative analysis to forecast financial market behavior.
 The project implements a complete, production-ready pipeline — from raw data ingestion to modeling, backtesting, and cloud deployment — mirroring the workflows used by global trading desks, fintechs, and quantitative research teams.
 
-**Overview**
+# **Overview**
 
 This project integrates two complementary intelligence layers:
 
@@ -20,8 +20,8 @@ The LLM converts raw text into structured numerical features such as sentiment, 
 
 This combination (Quant + LLM) makes the system robust, interpretable, and closer to real-world financial intelligence engines.
 
-**Architecture**
-## 🧱 Project Structure
+# **Architecture**
+## Project Structure
 
 ```text
 financial-forecasting-ai/
@@ -39,7 +39,7 @@ financial-forecasting-ai/
 └── README.md
 ```
 
-*Main Features*
+# **Main Features**
 
 ✔ Quantitative Layer
 
@@ -76,7 +76,7 @@ financial-forecasting-ai/
 * Streamlit / Gradio dashboard
 * Automated retraining pipelines
 
-**Tech Stack**
+# **Tech Stack**
 
 Languages & Libraries
 
@@ -99,7 +99,7 @@ Languages & Libraries
 * AWS Lambda + API Gateway
 * CI/CD with GitHub Actions
 
-**Roadmap**
+# **Roadmap**
 Phase 1 — Local Development (Current)
 
 ✔ Project setup
@@ -122,37 +122,36 @@ Automated ETL on AWS; Data lake architecture (S3 + Glue + Athena); Real-time inf
 Phase 3 — Advanced Modeling
 Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio optimization strategies; Automated reporting + event-driven insights
 
-**Getting Started**
+# **Getting Started**
 1. Create conda environment
 
-    conda create -n clotilde python=3.11
-
-    conda activate clotilde
+- conda create -n clotilde python=3.11
+- conda activate clotilde
 
 2. Install dependencies
 
-    pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3. Set up .env
 
-    MT5_LOGIN=YOUR_LOGIN
-    MT5_PASSWORD=YOUR_PASSWORD
-    MT5_SERVER=YOUR_SERVER
-
-
-
-    LLM_API_KEY=YOUR_KEY
-    LLM_API_URL=YOUR_ENDPOINT
+- MT5_LOGIN=YOUR_LOGIN
+- MT5_PASSWORD=YOUR_PASSWORD
+- MT5_SERVER=YOUR_SERVER
+- 
+- 
+- 
+- LLM_API_KEY=YOUR_KEY
+- LLM_API_URL=YOUR_ENDPOINT
 
 4. Download market data
 
-    python -m src.download_data
+- python -m src.download_data
 
 5. Run preprocessing and modeling 
 
-    *(coming soon as modules evolve)*
+- *(coming soon as modules evolve)*
 
-**Contact**
+# **Contact**
 
 This project is actively developed as part of an international machine learning/quantitative finance portfolio.
 For inquiries, collaboration, or discussion about the architecture, feel free to reach out.
