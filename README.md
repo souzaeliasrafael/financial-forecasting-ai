@@ -178,3 +178,11 @@ Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio opti
 
 This project is actively developed as part of an international machine learning/quantitative finance portfolio.
 For inquiries, collaboration, or discussion about the architecture, feel free to reach out.
+
+
+
+## References
+
+A complete list of academic and technical references used in this project is available in:
+
+`docs/REFERENCES.md`
