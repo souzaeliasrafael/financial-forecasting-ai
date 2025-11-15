@@ -103,11 +103,17 @@ Languages & Libraries
 Phase 1 — Local Development (Current)
 
 ✔ Project setup
+
 _ MetaTrader 5 ingestion
+
 _ Numerical preprocessing
+
 _ Baseline ML model (Prophet, XGBoost, LSTM)
+
 _ LLM qualitative signal extraction
+
 _ Feature fusion (Quant + LLM)
+
 _ Metrics & evaluation
 
 Phase 2 — Cloud Integration
