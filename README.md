@@ -1,25 +1,25 @@
-Financial Forecasting AI
+**Financial Forecasting AI**
 Project Codename: Clotilde
 
 Financial Forecasting AI is an end-to-end system that combines quantitative modeling, machine learning, and LLM-powered qualitative analysis to forecast financial market behavior.
 The project implements a complete, production-ready pipeline — from raw data ingestion to modeling, backtesting, and cloud deployment — mirroring the workflows used by global trading desks, fintechs, and quantitative research teams.
 
-Overview
+**Overview**
 
 This project integrates two complementary intelligence layers:
 
-🔹 1. Quantitative Pipeline
+🔹 1. *Quantitative Pipeline*
 
 Based on market data (OHLC, volume, volatility, technical indicators), processed through classical and deep learning architectures for time-series forecasting.
 
-🔹 2. Qualitative LLM Intelligence Layer
+🔹 2. *Qualitative LLM Intelligence Layer*
 
 Uses a Large Language Model API to analyze financial news, macroeconomic updates, company reports, and textual signals.
 The LLM converts raw text into structured numerical features such as sentiment, risk scores, trend labels, and event indicators — which are then fused with quantitative features to enhance predictions.
 
 This combination (Quant + LLM) makes the system robust, interpretable, and closer to real-world financial intelligence engines.
 
-Architecture
+**Architecture**
 project/
 │
 ├── src/
@@ -42,138 +42,91 @@ project/
 ├── .env                        # Credentials (ignored by Git)
 └── README.md
 
-Main Features
+*Main Features*
+
 ✔ Quantitative Layer
 
-OHLC historical data ingestion via MetaTrader5
-
-Multiple assets (indices, FX, equities, crypto, ETFs, FIIs)
-
-Rolling windows, lags, volatility measures
-
-RSI, MACD, EMAs, stochastic oscillators
-
-Scaling, normalization, and gap handling
-
-Baseline and advanced ML/DL forecasting models
+* OHLC historical data ingestion via MetaTrader5
+* Multiple assets (indices, FX, equities, crypto, ETFs, FIIs)
+* Rolling windows, lags, volatility measures
+* RSI, MACD, EMAs, stochastic oscillators
+* Scaling, normalization, and gap handling
+* Baseline and advanced ML/DL forecasting models
 
 ✔ Qualitative LLM Intelligence
 
-LLM API extracts structured financial signals from text:
-
-Sentiment score (–1 to 1)
-
-Risk score (0 to 1)
-
-Directional trend (bearish / neutral / bullish)
-
-Event indicators: earnings, regulation, lawsuits, macro crises
-
-Structured summaries for daily qualitative context
-
-These features augment the numerical dataset and are fused before training.
+* LLM API extracts structured financial signals from text:
+* Sentiment score (–1 to 1)
+* Risk score (0 to 1)
+* Directional trend (bearish / neutral / bullish)
+* Event indicators: earnings, regulation, lawsuits, macro crises
+* Structured summaries for daily qualitative context
+* These features augment the numerical dataset and are fused before training.
 
 ✔ Backtesting & Evaluation
 
-Time-aware train/test split
-
-Walk-forward validation
-
-Return simulation based on forecasts
-
-Sharpe, Sortino, drawdown
-
-Strategy comparison against buy-and-hold
+* Time-aware train/test split
+* Walk-forward validation
+* Return simulation based on forecasts
+* Sharpe, Sortino, drawdown
+* Strategy comparison against buy-and-hold
 
 ✔ Cloud Deployment (Phase 2–3)
 
-AWS S3 (data lake)
+* AWS S3 (data lake)
+* AWS Glue + Athena (catalog + queries)
+* Lambda API for real-time predictions
+* Streamlit / Gradio dashboard
+* Automated retraining pipelines
 
-AWS Glue + Athena (catalog + queries)
+**Tech Stack**
 
-Lambda API for real-time predictions
-
-Streamlit / Gradio dashboard
-
-Automated retraining pipelines
-
-Tech Stack
 Languages & Libraries
 
-Python 3.11
-
-MetaTrader5
-
-Pandas, NumPy
-
-Scikit-learn
-
-Matplotlib
-
-Python-dotenv
-
-TensorFlow / PyTorch (Phase 3)
-
-LLM Integration
-
-Any provider with a Chat/Completions API
-
-JSON-structured financial analysis prompts
-
-Feature extraction pipeline
-
-Cloud & MLOps
+* Python 3.11
+* MetaTrader5
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib
+* Python-dotenv
+* TensorFlow / PyTorch (Phase 3)
+* LLM Integration
+* Any provider with a Chat/Completions API
+* JSON-structured financial analysis prompts
+* Feature extraction pipeline
+* Cloud & MLOps
 
 (Applied in later phases)
 
-AWS S3, AWS Glue, Athena
+* AWS S3, AWS Glue, Athena
+* AWS Lambda + API Gateway
+* CI/CD with GitHub Actions
 
-AWS Lambda + API Gateway
-
-CI/CD with GitHub Actions
-
-Docker (optional)
-
-Roadmap
+**Roadmap**
 Phase 1 — Local Development (Current)
 
 ✔ Project setup
-
 ⟳ MetaTrader 5 ingestion
-
 ⟳ Numerical preprocessing
-
 ⟳ Baseline ML model (Prophet, XGBoost, LSTM)
-
 ⟳ LLM qualitative signal extraction
-
 ⟳ Feature fusion (Quant + LLM)
-
 ⟳ Metrics & evaluation
 
 Phase 2 — Cloud Integration
-
 Automated ETL on AWS
-
 Data lake architecture (S3 + Glue + Athena)
-
 Real-time inference API
-
 Dashboard for visualization
-
 Pipeline for scheduled retraining
 
 Phase 3 — Advanced Modeling
-
 Transformer-based forecasting models
-
 Explainability (SHAP/LIME)
-
 Portfolio optimization strategies
-
 Automated reporting + event-driven insights
 
-Getting Started
+**Getting Started**
 1. Create conda environment
 conda create -n clotilde python=3.11
 conda activate clotilde
@@ -194,9 +147,9 @@ python -m src.download_data
 
 5. Run preprocessing and modeling
 
-(coming soon as modules evolve)
+*(coming soon as modules evolve)*
 
-Contact
+**Contact**
 
 This project is actively developed as part of an international machine learning/quantitative finance portfolio.
 For inquiries, collaboration, or discussion about the architecture, feel free to reach out.
