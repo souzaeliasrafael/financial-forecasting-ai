@@ -38,6 +38,7 @@ This combination (Quant + LLM) makes the system robust, interpretable, and close
 ## Relevance
 Designed as a real-world ML system aligned with workflows used in fintech, trading, and quantitative research roles globally.
 
+
 # **Architecture**
 ## Project Structure
 
@@ -143,8 +144,8 @@ Transformer-based forecasting models; Explainability (SHAP/LIME); Portfolio opti
 # **Getting Started**
 1. Create conda environment
 
-- conda create -n clotilde python=3.11
-- conda activate clotilde
+conda create -n clotilde python=3.11
+conda activate clotilde
 
 
 2. Install dependencies
