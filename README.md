@@ -1,4 +1,5 @@
 **Financial Forecasting AI**
+
 Project Codename: Clotilde
 
 Financial Forecasting AI is an end-to-end system that combines quantitative modeling, machine learning, and LLM-powered qualitative analysis to forecast financial market behavior.
